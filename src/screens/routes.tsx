@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import { WelcomeScreen } from './welcome/welcome-screen';
+import { Route, Switch } from 'react-router-dom';
 import { InitializationScreen } from './initialization/initialization-screen';
+import { WelcomeScreen } from './welcome/welcome-screen';
 
 /**
  * Routes

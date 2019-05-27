@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { ThemeKeys, theme } from '../utils/theme';
+import { theme, ThemeKeys } from '../utils/theme';
 import { Container } from './container';
 
 const BlockOuter = styled.div`
