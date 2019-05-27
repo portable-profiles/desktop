@@ -1,0 +1,4 @@
+
+.segment + .segment {
+  padding-top: 20px;
+}
