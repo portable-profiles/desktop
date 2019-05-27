@@ -12,10 +12,8 @@ export class Block extends React.Component {
     const { children } = this.props;
     return (
       <BlockOuter>
-        <Container>
-            {children}
-        </Container>
+        <Container>{children}</Container>
       </BlockOuter>
-    )
+    );
   }
 }

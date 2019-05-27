@@ -9,12 +9,14 @@ type WelcomeScreenComponentProps = RouteComponentProps<{}>;
 
 /**
  * Welcome Screen
- * 
+ *
  * This is the first screen that the user sees in the app. Its
  * main purpose is to orient the user before they start the
  * profile creation process.
  */
-export class WelcomeScreenComponent extends React.Component<WelcomeScreenComponentProps> {
+export class WelcomeScreenComponent extends React.Component<
+  WelcomeScreenComponentProps
+> {
   public componentDidMount() {
     TitleService.setTitle('Get started');
   }
@@ -26,21 +28,26 @@ export class WelcomeScreenComponent extends React.Component<WelcomeScreenCompone
           <strong>Your data. Your choice.</strong>
         </Segment>
         <Segment>
-          Paladin helps you take control over your data.
-          Your likes, posts, and profile are stored on your
-          computer, and only shared with the services that you
-          choose. Start by creating your profile.
+          Paladin helps you take control over your data. Your likes, posts, and
+          profile are stored on your computer, and only shared with the services
+          that you choose. Start by creating your profile.
         </Segment>
         <Segment>
-          <Button variant='contained' color='primary' onClick={this.handleCreateProfile}>Create profile</Button>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={this.handleCreateProfile}
+          >
+            Create profile
+          </Button>
         </Segment>
       </Block>
-    )
+    );
   }
 
   public handleCreateProfile = () => {
     this.props.history.push('/profile');
-  }
+  };
 }
 
 export const WelcomeScreen = withRouter(WelcomeScreenComponent);

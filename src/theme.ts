@@ -1,9 +1,9 @@
-import { purple } from "@material-ui/core/colors";
-import { createMuiTheme } from "@material-ui/core";
+import { purple } from '@material-ui/core/colors';
+import { createMuiTheme } from '@material-ui/core';
 
 /**
  * Material UI Theme
- * 
+ *
  * Theme customizations for this app that implement a unique
  * material look & feel.
  */
@@ -17,12 +17,12 @@ export const muiTheme = createMuiTheme({
     MuiButton: {
       root: {
         textTransform: 'none',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
       },
       contained: {
         borderRadius: 3,
-        boxShadow: 'none'
+        boxShadow: 'none',
       },
-    }
-  }
+    },
+  },
 });

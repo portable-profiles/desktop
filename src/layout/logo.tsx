@@ -7,9 +7,7 @@ const Image = styled.img`
   height: 25px;
 `;
 
-export interface LogoProps {
-  
-}
+export interface LogoProps {}
 
 export class Logo extends React.Component<LogoProps> {
   public render() {
@@ -17,6 +15,6 @@ export class Logo extends React.Component<LogoProps> {
       <React.Fragment>
         <Image src="/logo.svg" alt={Application.Name} />
       </React.Fragment>
-    )
+    );
   }
 }

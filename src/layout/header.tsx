@@ -4,12 +4,9 @@ import { ThemeKeys, theme } from '../utils/theme';
 import { Block } from './block';
 import { Logo } from './logo';
 
-const HeaderWrap = styled.div`
-`;
+const HeaderWrap = styled.div``;
 
-export interface HeaderProps {
-  
-}
+export interface HeaderProps {}
 
 export class Header extends React.Component<HeaderProps> {
   public render() {
@@ -19,6 +16,6 @@ export class Header extends React.Component<HeaderProps> {
           <Logo />
         </Block>
       </HeaderWrap>
-    )
+    );
   }
 }
