@@ -5,7 +5,9 @@
       "options": [120]
     },
     "quotemark": [true, "single", "jsx-double"],
-    "object-literal-sort-keys": false
+    "object-literal-sort-keys": false,
+    "ordered-imports": true,
+    "member-access": true
   },
   "jsRules": {
     "max-line-length": {
