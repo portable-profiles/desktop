@@ -29,7 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "electron": "electron ."
+    "electron": "electron .",
+    "prettier": "prettier --write \"./**/*.{js,jsx,json,ts,tsx}\"",
+    "prettier:check": "prettier --check \"./**/*.{js,jsx,json,ts,tsx}\""
   },
   "browserslist": {
     "production": [
