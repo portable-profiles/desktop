@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "stable"
+fail_fast: trueSec
+
 script:
   - npm run format:check
   - npm run lint:check

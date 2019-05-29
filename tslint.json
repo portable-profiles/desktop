@@ -6,8 +6,9 @@
     },
     "quotemark": [true, "single", "jsx-double"],
     "object-literal-sort-keys": false,
-    "ordered-imports": true,
-    "member-access": true
+    "ordered-imports": false,
+    "member-access": true,
+    "semicolon": [true, "always", "ignore-bound-class-methods"]
   },
   "jsRules": {
     "max-line-length": {

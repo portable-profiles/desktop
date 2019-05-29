@@ -46,7 +46,7 @@ export class WelcomeScreenComponent extends React.Component<
   }
 
   public handleCreateProfile = () => {
-    this.props.history.push('/profile');
+    this.props.history.push('/new-profile');
   };
 }
 
